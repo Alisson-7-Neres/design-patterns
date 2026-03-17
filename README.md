@@ -1,12 +1,10 @@
 # Design Patterns
 
-| Tecnologias  |
- | :-----------  |
- |Java  |
- |Spring boot |
- |Rest Api |
- |Database h2 |
- |Swagger  |
+- [x] Singleton
+- [ ] Strategy
+- [ ] Decorator
+- [ ] Observer
+- [ ] Factory Method
 
 
 ## Singleton:
