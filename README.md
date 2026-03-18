@@ -1,7 +1,7 @@
 # Design Patterns
 
 - [x] Singleton
-- [ ] Strategy
+- [x] Strategy
 - [ ] Decorator
 - [ ] Observer
 - [ ] Factory Method
