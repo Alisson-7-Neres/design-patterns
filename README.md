@@ -2,7 +2,7 @@
 
 - [x] Singleton
 - [x] Strategy
-- [ ] Decorator
+- [x] Decorator
 - [ ] Observer
 - [ ] Factory Method
 
@@ -52,3 +52,18 @@ Exemplo:<br>
 **Estrutura**
 <img src="img/02-strategy.png">
 
+## Decorator
+O Decorator é um padrão de projeto **estrutural** que permite que você acople novos comportamentos para objetos ao colocá-los dentro de invólucros de objetos que contém os comportamentos.
+
+**Problema**
+Você deseja adicionar comportamento ou estado a objetos individuais em tempo de execução. A herança não é viável porque é estática e se aplica a uma classe inteira.
+
+**Solução**
+Estender uma classe é a primeira coisa que vem à mente quando você precisa alterar o comportamento de um objeto. No entanto, a herança tem várias advertências sérias que você precisa estar ciente.
+* A herança é estática. Você não pode alterar o comportamento de um objeto existente no tempo de execução. Você só pode substituir o objeto inteiro por outro criado a partir de uma subclasse diferente.
+* As subclasses podem ter apenas uma classe pai. Na maioria das linguagens, a herança não permite que uma classe herde comportamentos de várias classes ao mesmo tempo.
+
+Uma das maneiras de superar essas advertências é usando Agregação ou Composição em vez de herança . Ambas as alternativas funcionam quase da mesma maneira: um objeto faz referência a outro e delega-lhe algum trabalho, enquanto que com a herança, o próprio objeto é capaz de fazer esse trabalho, herdando o comportamento de sua superclasse.
+
+**Estrutura**
+<img src="img/03-decorator.png">
