@@ -4,7 +4,7 @@
 - [x] Strategy
 - [x] Decorator
 - [x] Observer
-- [ ] Factory Method
+- [x] Factory Method
 
 
 ## Singleton:
@@ -87,3 +87,15 @@ O padrão Observer sugere que você adicione um mecanismo de assinatura para a c
 
 **Estrutura**
 <img src="img/04-observer.png">
+
+## Factory Method
+O Factory Method é um padrão **criacional** de projeto que fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados.
+**Vantagens do Factory Method**
+
+- Reduz acoplamento
+- Facilita manutenção
+- Facilita adicionar novos tipos de transporte
+- Segue o princípio Open/Closed (OCP)
+
+**Estrutura**
+<img src="img/05-factoryMethod.png">
